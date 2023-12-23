@@ -1,0 +1,67 @@
+
+
+
+.login-form , .register-form  {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(220, 238, 232);
+  color: rgb(140, 185, 152);
+
+}
+
+.augth-form-conent, .login-form, .register-form{
+  display: flex;
+  flex-direction: column;
+
+}
+
+button{
+
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 75px;
+  /* background-color: rgb(210, 255, 240); */
+  margin: 10px;
+  cursor: pointer;
+  background-color: rgb(174, 241, 208);
+}
+
+.button:active{
+  background-color: rgb(107, 150, 136);
+}
+
+
+.link-btn{
+  display: flex;
+  text-align: none;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  color: black;
+  text-decoration: underline;
+}
+
+.imput{
+  border-radius: 75px;
+  border:none;
+  margin: 0rem;
+  height: 25px;
+  cursor: pointer;
+
+}
+
+.label{
+  font-size: 1.4rem;
+  font-weight: 20%;
+}
+
+.btn{
+  border: none;
+  border-radius: 30px;
+  cursor: pointer; 
+  
+}

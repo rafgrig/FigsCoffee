@@ -1,0 +1,51 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    width:200px ;
+    height: 350px;
+    cursor: pointer;
+    justify-content: space-around;
+}
+.marketplace {
+    display: flex;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.item:hover{
+    transform: scale(1.02);
+    transition: 0.4s;
+}
+
+.img{
+    background-color: rgb(179, 253, 228);
+    border: none;
+    border-radius: 20px 20px 0px 0px;
+    width: 200px;
+    height: 200px;
+}
+
+.name-price{
+    background-color: white;
+    border: none;
+    border-radius: 0px 0px 20px 20px;
+    width: 200px;
+    height: 150px;
+    font-weight: 600;
+}
+
+.btn{
+    width: 100px;
+    background-color: rgb(178, 255, 175);
+    border: 10px;
+    font-weight: 600;
+}
+
+.btn:active{
+    background-color: rgb(149, 209, 147);
+}
+
+.love{
+    margin-left: 150px;
+}
